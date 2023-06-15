@@ -97,6 +97,10 @@ section.secondary {
   width: 100%;
 }
 
+.my-photos {
+  width: 100%;
+}
+
 .grid {
   display: grid;
   grid-gap: 40px;
@@ -215,6 +219,12 @@ footer a {
   }
 
   .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+    text-align: center;
+  }
+
+  .grid-3-even-columns .gallery {
     grid-template-columns: 1fr;
     grid-gap: 32px;
     text-align: center;
